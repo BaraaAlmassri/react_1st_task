@@ -3,7 +3,7 @@ import React from "react";
 export default function Policy() {
   return (
     <>
-      <section id="policy" className="py-24 bg-gray-50 scroll-mt-20">
+      <section id="policy" className="py-24 bg-gray-50 scroll-mt-20 mt-8">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
             <span className="text-red-500 font-extrabold uppercase tracking-widest text-sm">

@@ -5,11 +5,13 @@ import Tacos from "./components/tacos/Tacos";
 import Home from "./components/home/Home";
 import Aboutus from "./components/aboutus/Aboutus";
 import Policy from "./components/policy/Policy";
+import { RouterProvider } from "react-router-dom";
+import router from "./router";
 
 export default function App() {
   return (
     <div>
-      <Aboutus></Aboutus>
+      <RouterProvider router={router} />
     </div>
   );
 }

@@ -5,7 +5,7 @@ export default function Aboutus() {
   return (
     <>
       <Navbar></Navbar>
-      <section id="about" className="py-24 bg-white scroll-mt-20">
+      <section id="about" className="py-24 bg-white scroll-mt-20 mt-8">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="grid grid-cols-2 gap-4 relative">
