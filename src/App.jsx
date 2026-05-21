@@ -3,11 +3,12 @@ import Pizza from "./components/pizza/Pizza";
 import Kebab from "./components/kebab/Kebab";
 import Tacos from "./components/tacos/Tacos";
 import Home from "./components/home/Home";
+import Aboutus from "./components/aboutus/Aboutus";
 
 export default function App() {
   return (
     <div>
-      <Home></Home>
+      <Aboutus></Aboutus>
     </div>
   );
 }
