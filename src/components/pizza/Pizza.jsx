@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Loader from "../loader/Loader";
 import Pizza_view from "../pizzaview/Pizza_view";
+import Navbar from "../navbar/Navbar";
 
 export default function pizza() {
   const [pizzas, setPizza] = useState([]);
@@ -35,6 +36,7 @@ export default function pizza() {
 
   return (
     <>
+      <Navbar></Navbar>
       <section className="py-20">
         <h1 className="text-3xl font-bold text-center mb-8">Pizzas</h1>
         <div className="container mx-auto px-4">

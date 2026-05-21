@@ -9,7 +9,7 @@ import Policy from "./components/policy/Policy";
 export default function App() {
   return (
     <div>
-      <Policy></Policy>
+      <Aboutus></Aboutus>
     </div>
   );
 }
