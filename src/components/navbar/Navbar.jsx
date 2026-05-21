@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Link } from "react-router-dom";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -13,41 +13,41 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:flex items-center gap-8 font-semibold text-gray-600">
-            <a
-              href="#about"
+            <Link
+              to="/AboutUs"
               className="relative py-2 transition-colors duration-200 hover:text-red-500 group"
             >
               About us
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
-            </a>
-            <a
-              href="#policy"
+            </Link>
+            <Link
+              to="/Policy"
               className="relative py-2 transition-colors duration-200 hover:text-red-500 group"
             >
               Subscription policy
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
-            </a>
-            <a
-              href="#pizzas"
+            </Link>
+            <Link
+              to="/Pizza"
               className="relative py-2 transition-colors duration-200 hover:text-red-500 group"
             >
               Pizzas
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
-            </a>
-            <a
-              href="#kebabs"
+            </Link>
+            <Link
+              to="/Kebab"
               className="relative py-2 transition-colors duration-200 hover:text-red-500 group"
             >
               Kebabs
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
-            </a>
-            <a
-              href="#tacos"
+            </Link>
+            <Link
+              to="/Taco"
               className="relative py-2 transition-colors duration-200 hover:text-red-500 group"
             >
               Tacos
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
-            </a>
+            </Link>
           </div>
 
           <div className="hidden md:block">
